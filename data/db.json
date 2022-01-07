@@ -1,3 +1,10 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "Welcome message",
+      "body": "This is quite good",
+      "author": "Farmo",
+      "id": 1
+    }
+  ]
 }
