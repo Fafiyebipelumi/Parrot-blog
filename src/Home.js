@@ -3,7 +3,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
 
-    const { data: blogs, isPending, error } = useFetch('https://jsonplaceholder.typicode.com/posts');
+    const { data: blogs, isPending, error } = useFetch(' http://localhost:8000/blogs');
 
     // const [name, setName] = useState('Pelumi');
 

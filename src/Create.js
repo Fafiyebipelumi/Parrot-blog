@@ -15,7 +15,7 @@ const Create = () => {
 
         setIsPending(true);
 
-        fetch('https://jsonplaceholder.typicode.com/posts', {
+        fetch(' http://localhost:8000/blogs', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(blog)
@@ -38,7 +38,7 @@ const Create = () => {
                     onChange={(e) => setTitle(e.target.value)}
                 />
                 <label>Blog body:</label>
-                <textarea
+                <textarea 
                     required
                     value={body}
                     onChange={(e) => setBody(e.target.value)}
